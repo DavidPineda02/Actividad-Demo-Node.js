@@ -12,7 +12,7 @@ app.get('/aprendices', (req, res) => {
 })
 
 app.get('/programas', (req, res) => {
-    res.send('<h3>Hola Programas, bienvenidos al sistema de gestión. El sistema permite registrar, actualizar y eliminar información de los programas de formación.</h3>')
+    res.send('<h3>Hola, Bienvenidos al sistema de gestión. El sistema permite registrar, actualizar y eliminar información de los programas de formación.</h3>')
 })
 
 app.listen(port, () => {
